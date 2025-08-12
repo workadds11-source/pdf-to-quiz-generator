@@ -134,7 +134,7 @@ export default function ChatWithFiles() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <div>Drag and drop files here</div>
+            <div>Drag and drop files here MAMY</div>
             <div className="text-sm dark:text-zinc-400 text-zinc-500">
               {"(PDFs only)"}
             </div>
@@ -184,7 +184,7 @@ export default function ChatWithFiles() {
                     {files[0].name}
                   </span>
                 ) : (
-                  <span>Drop your PDF here or click to browse.</span>
+                  <span>Drop your PDF here or click to browse MAMY.</span>
                 )}
               </p>
             </div>
@@ -196,7 +196,7 @@ export default function ChatWithFiles() {
               {isLoading ? (
                 <span className="flex items-center space-x-2">
                   <Loader2 className="h-4 w-4 animate-spin" />
-                  <span>Generating Quiz...</span>
+                  <span>Generating Quiz BY UR AI BANY NOT ChatGPT...</span>
                 </span>
               ) : (
                 "Generate Quiz"

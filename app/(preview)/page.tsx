@@ -65,7 +65,7 @@ export default function ChatWithFiles() {
     console.log(validFiles);
 
     if (validFiles.length !== selectedFiles.length) {
-      toast.error("Only PDF files under 5MB are allowed.");
+      toast.error("Only PDF files under 1123MB are allowed.");
     }
 
     setFiles(validFiles);

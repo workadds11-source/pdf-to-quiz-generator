@@ -154,7 +154,7 @@ export default function ChatWithFiles() {
           </div>
           <div className="space-y-2">
             <CardTitle className="text-2xl font-bold">
-              PDF Quiz Generator
+             MOSAB PDF Quiz Generator
             </CardTitle>
             <CardDescription className="text-base">
               Upload a PDF to generate an interactive quiz based on its content
